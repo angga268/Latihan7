@@ -20,8 +20,8 @@ while (True):
 
     if listMenu == "1":
         print("Menu -- Hitung Luas Segitiga")
-        alas = int(input("\nMasukan Panjang Alas : "))
-        tinggi = int(input("Masukan Tinggi : "))
+        alas = float(input("\nMasukan Panjang Alas : "))
+        tinggi = float(input("Masukan Tinggi : "))
 
         rumus1 = 1/2 * alas * tinggi
         print("\nLuas Segitiga : ", rumus1)
@@ -29,8 +29,8 @@ while (True):
 
     elif listMenu == "2":
         print("Menu -- Hitung Luas Persegi Panjang")
-        panjang = int(input("\nMasukan Panjang : "))
-        lebar = int(input("Masukan Lebar : "))
+        panjang = float(input("\nMasukan Panjang : "))
+        lebar = float(input("Masukan Lebar : "))
 
         rumus2 = panjang * lebar
         print("\nLuas Persegi Panjang : ", rumus2)
@@ -38,7 +38,7 @@ while (True):
 
     elif listMenu == "3":
         print("Menu -- Tentukan number ganjil genap")
-        angka = int(input("\nMasukan Angka : "))
+        angka = float(input("\nMasukan Angka : "))
 
         if (angka % 2 == 0):
             print("\nAngka", angka, "merupakan angka Genap.")
